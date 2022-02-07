@@ -16,12 +16,13 @@
 
 ##### C++ 은 max-heap을 지원
 Max Heap 은 가장 처음 pop() 했을 때 가장 큰 값이 빠져나오는 것이 보장됨.
-
+    
+    
 ### Python에서의 우선순위 큐 
 
 ##### Python 은 min-heap 지원
 Min Heap 은 가장 처음 pop() 했을 때 가장 작은 값이 빠져나오는 것이 보장됨.
-
+  
 #### PriorityQueue Library를 사용하는 경우
 이 경우는 Queue와 마찬가지로 thread-safe를 지원하기 때문에 속도 측면에서 사용하기 어렵다.
 (그래서 Queue대신 deque를 사용했었다. 우선순위 큐의 경우는 heapq를 사용한다.)
@@ -40,10 +41,10 @@ while not pq.empty():
 ```
 
 **결과**
--5 
-0 
-6 
-8  
+-5  
+0  
+6  
+8   
 10  
 
 #### heapq를 사용하는 경우 (시간초과 방지)
