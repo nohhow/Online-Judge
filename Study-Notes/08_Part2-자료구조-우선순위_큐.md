@@ -40,7 +40,7 @@ while not pq.empty():
 	print(pq.get()) #pop 
 ```
 
-**결과**
+**결과**  
 -5  
 0  
 6  
